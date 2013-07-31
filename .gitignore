@@ -3,3 +3,5 @@ protected/runtime/
 themes/classic/views/
 nbproject/*
 /protected/config/db.php
+/index.php
+/index-test.php
