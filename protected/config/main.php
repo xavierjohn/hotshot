@@ -45,12 +45,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-
-                /*
-		'db'=>array(
-			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-		),
-                 */		
+	
 		'db'=> require(dirname(__FILE__) . '/db.php'),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
